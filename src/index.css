@@ -1,3 +1,12 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.gradient{
+    /* background-image: linear-gradient(-20deg, #141228 0%, #331A4A 100%); */
+    background-image: linear-gradient(to top, #09203f 0%, #537895 100%);
+    /* background-image: linear-gradient(-20deg, #2b5876 0%, #4e4376 100%); */
+    /* background-image: linear-gradient(to right, #3ab5b0 0%, #3d99be 31%, #56317a 100%); */
+    /* background-image: linear-gradient(to right, #243949 0%, #517fa4 100%); */
+    /* background-image: linear-gradient(-225deg, #3D4E81 0%, #5753C9 48%, #6E7FF3 100%); */
+}

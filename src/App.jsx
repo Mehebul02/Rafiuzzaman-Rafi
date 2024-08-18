@@ -1,11 +1,12 @@
+import Roots from "./roots/Roots"
 
 
 function App() {
   
   return (
-    <>
-      <h1 className="flex justify-center items-center text-4xl font-semibold min-h-screen">Rafiuzzaman Rafi</h1>
-    </>
+    <div className="gradient" >
+      <Roots/>
+    </div>
   )
 }
 

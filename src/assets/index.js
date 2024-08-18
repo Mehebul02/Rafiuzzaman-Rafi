@@ -1,3 +1,3 @@
-import personalImg from '../assets/images/Profile Formal.jpg'
+import personalImg from '../assets/images/profile.jpg'
 
 export {personalImg}

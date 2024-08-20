@@ -14,7 +14,7 @@ const LeftPart = () => {
       />
       {/* name title  */}
       <div className="space-y-5">
-        <h1 className="text-5xl text-white font-poppins font-semibold mt-8">
+        <h1 className="text-7xl text-white font-poppins font-semibold mt-8">
           Hi, I’m{" "}
           <span className="text-[#ffa51f] font-montserrat">
             Rafiuzzaman Rafi

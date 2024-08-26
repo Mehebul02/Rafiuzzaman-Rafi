@@ -7,7 +7,7 @@ import { HiReply } from "react-icons/hi";
 const LeftPart = () => {
  
   return (
-    <div className="mt-10">
+    <div className="mt-10 ">
       <img
         src={personalImg}
         alt="personalImg"

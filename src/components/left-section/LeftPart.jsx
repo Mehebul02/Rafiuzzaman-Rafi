@@ -5,6 +5,7 @@ import CustomButton from "../../shared/CustomButton";
 import { HiReply } from "react-icons/hi";
 
 const LeftPart = () => {
+ 
   return (
     <div className="mt-10">
       <img
@@ -20,7 +21,7 @@ const LeftPart = () => {
             Rafiuzzaman Rafi
           </span>
         </h1>
-        <h1 className="text-4xl text-[#8D9093] font-poppins font-bold flex items-end gap-3">
+        <h1 className="text-4xl text-[#ffffff] font-poppins font-bold flex items-end gap-3">
           Data Analyst{" "}
           <BiAnalyse className="animate-spin text-[#ffa51f] font-semibold" />{" "}
         </h1>

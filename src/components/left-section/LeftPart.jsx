@@ -3,6 +3,7 @@ import { personalImg } from "../../assets";
 import { CiSaveDown1 } from "react-icons/ci";
 import CustomButton from "../../shared/CustomButton";
 import { HiReply } from "react-icons/hi";
+import TypeAnimations from "../../shared/TypeAnimation";
 
 const LeftPart = () => {
  
@@ -22,7 +23,7 @@ const LeftPart = () => {
           </span>
         </h1>
         <h1 className="text-4xl text-[#ffffff] font-poppins font-bold flex items-end gap-3">
-          Data Analyst{" "}
+         <TypeAnimations/>
           <BiAnalyse className="animate-spin text-[#ffa51f] font-semibold" />{" "}
         </h1>
         <p className="text-xl text-gray-300 font-montserrat w-2/3 font-normal ">

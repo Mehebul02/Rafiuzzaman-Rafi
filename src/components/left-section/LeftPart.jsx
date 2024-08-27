@@ -4,6 +4,7 @@ import { CiSaveDown1 } from "react-icons/ci";
 import CustomButton from "../../shared/CustomButton";
 import { HiReply } from "react-icons/hi";
 import TypeAnimations from "../../shared/TypeAnimation";
+import SocialLInks from "../../shared/SocialLink";
 
 const LeftPart = () => {
  
@@ -31,6 +32,8 @@ const LeftPart = () => {
           Dynamic and technically skilled, I am a creative <span className="text-[#ffa51f]">ASO expert</span>  in optimizing app performance and driving
           growth through innovative strategies.
         </p>
+        {/* social link  */}
+        <SocialLInks/>
        {/* button  */}
        <div className="flex items-center gap-12">
         <CustomButton text='Download CV'/>

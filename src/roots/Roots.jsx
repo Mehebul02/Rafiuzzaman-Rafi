@@ -6,14 +6,14 @@ const Roots = () => {
     return (
          <div className=" min-h-screen">
        <Container>
-          <div className="grid grid-cols-2 gap-10 ">
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-10 ">
              {/* Left Part   */}
            <div>
             <LeftPart/>
 
            </div>
           {/* Right part  */}
-          <div className="mt-36">
+          <div className="lg:mt-12">
             <RightSection/>
 
           </div>

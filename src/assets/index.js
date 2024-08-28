@@ -5,5 +5,6 @@ import rStudio from '../assets/images/RStudio-Logo-All-Color-partners.png'
 import spss from '../assets/images/pngwing.com.png'
 import sas from '../assets/images/sas-logo-sas-blue.png'
 import stata from '../assets/images/logo-blue.png'
+import resume from '../assets/images/Resume.pdf'
 
-export {personalImg,msWord,rlanguage,rStudio,spss,sas,stata}
+export {personalImg,msWord,rlanguage,rStudio,spss,sas,stata,resume}

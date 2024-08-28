@@ -1,5 +1,5 @@
 import { BiAnalyse } from "react-icons/bi";
-import { personalImg } from "../../assets";
+import { personalImg, resume } from "../../assets";
 import { CiSaveDown1 } from "react-icons/ci";
 import CustomButton from "../../shared/CustomButton";
 import { HiReply } from "react-icons/hi";
@@ -38,7 +38,7 @@ const LeftPart = () => {
     
        {/* button  */}
        <div className="flex items-center gap-12">
-        <CustomButton text='Download CV'/>
+        <a href={resume} target='_blank'><CustomButton text='Download CV'/></a>
         <button className="hover:bg-[#ffa51f] px-4 py-3 text-center text-xl font-montserrat font-semibold hover:text-gray-900 rounded-[8px] flex items-center gap-2 bg-orange-600 duration-300 text-white">Hire Me  <HiReply   className="text-2xl animate-pulse"></HiReply> </button>
        </div>
       </div>

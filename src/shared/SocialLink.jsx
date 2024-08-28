@@ -14,13 +14,13 @@ const socialAccounts = [
  
   {
     title: "linkedin",
-    link: "",
+    link: "linkedin.com/in/rafiuzzaman",
     icon: <SlSocialLinkedin />,
     delay: 0.9,
   },
   {
     title: "facebook",
-    link: "",
+    link: "https://www.facebook.com/rafiuzzaman.ewu",
     icon: <SlSocialFacebook />,
     delay: 0.95,
   },

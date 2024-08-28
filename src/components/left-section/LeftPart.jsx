@@ -5,6 +5,7 @@ import CustomButton from "../../shared/CustomButton";
 import { HiReply } from "react-icons/hi";
 import TypeAnimations from "../../shared/TypeAnimation";
 import SocialLInks from "../../shared/SocialLink";
+import { FaLinkedin } from "react-icons/fa";
 
 const LeftPart = () => {
  
@@ -34,6 +35,7 @@ const LeftPart = () => {
         </p>
         {/* social link  */}
         <SocialLInks/>
+    
        {/* button  */}
        <div className="flex items-center gap-12">
         <CustomButton text='Download CV'/>

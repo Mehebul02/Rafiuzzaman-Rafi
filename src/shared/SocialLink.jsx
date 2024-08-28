@@ -3,9 +3,8 @@ import {
   SlSocialFacebook,
   SlSocialInstagram,
   SlSocialLinkedin,
-  SlSocialYoutube,
 } from "react-icons/sl";
-import { TbBrandGithub } from "react-icons/tb";
+
 import { motion } from "framer-motion";
 import { twMerge } from "tailwind-merge";
 
@@ -14,7 +13,7 @@ const socialAccounts = [
  
   {
     title: "linkedin",
-    link: "linkedin.com/in/rafiuzzaman",
+    link: "https://www.linkedin.com/in/rafiuzzaman/overlay/contact-info/",
     icon: <SlSocialLinkedin />,
     delay: 0.9,
   },
@@ -26,7 +25,7 @@ const socialAccounts = [
   },
   {
     title: "instagram",
-    link: "https://www.instagram.com/simplenoor143/",
+    link: "",
     icon: <SlSocialInstagram />,
     delay: 1,
   },

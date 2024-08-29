@@ -25,7 +25,7 @@ const socialAccounts = [
   },
   {
     title: "instagram",
-    link: "",
+    link: "https://www.instagram.com/md._rafiuzzaman_rafi/",
     icon: <SlSocialInstagram />,
     delay: 1,
   },

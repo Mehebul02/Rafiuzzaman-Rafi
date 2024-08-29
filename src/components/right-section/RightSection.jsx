@@ -9,6 +9,7 @@ import {
 } from "react-icons/si";
 import { MdDevicesOther } from "react-icons/md";
 import About from "./About";
+import Contact from "./Contact";
 
 const RightSection = () => {
   return (
@@ -81,6 +82,8 @@ const RightSection = () => {
           </div>
         </div>
       </div>
+      {/* contact form  */}
+      <Contact/>
     </div>
   );
 };

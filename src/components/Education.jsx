@@ -10,7 +10,7 @@ const Education = () => {
           VISIT MY PROJECTS & HIRE ME
           </h1> */}
           <h1 className="flex justify-center items-center gap-4 text-2xl lg:text-4xl text-[#ffffff] font-montserrat font-bold  uppercase">
-          <MdOutlineCastForEducation/>  Education
+          <MdOutlineCastForEducation className="text-[#020609] animate-pulse"/>  Education
           </h1>
          <div className="divider"></div>
        </div>
@@ -29,10 +29,10 @@ const Education = () => {
       </svg>
     </div>
     <div className="timeline-start mb-10 md:text-end bg-slate-300 hover:bg-white p-2 rounded-xl shadow-xl transform transition duration-500 hover:scale-105">
-      <time className="font-mono italic">2020-2024</time>
-      <div className="text-xl font-montserrat font-bold my-2 px-3">Diploma In Computer Technology</div>
+      <time className="font-mono italic">2015-2019</time>
+      <div className="text-xl font-montserrat font-bold my-2 px-3">BSC in Applied Statistics</div>
       
-      <h1 className="text-md text-[#2a2929] font-medium font-montserrat p-2">Jhenaidah Polytechnic Institute , Jhenaidah</h1>
+      <h1 className="text-md text-[#2a2929] font-medium font-montserrat p-2">East West University, Dhaka</h1>
     </div>
     <hr />
   </li>
@@ -51,9 +51,9 @@ const Education = () => {
       </svg>
     </div>
     <div className="timeline-end mb-10 bg-slate-300 hover:bg-white p-2 rounded-xl shadow-xl overflow-hidden transform transition duration-500 hover:scale-105">
-      <time className="font-mono italic">2018-2020</time>
-      <div className="text-2xl font-montserrat font-bold my-2 px-3">S.S.C</div>
-      <h1 className="text-md text-[#2a2929] font-medium font-montserrat p-2">A S, K,MP High School , Bheramara Kushtia</h1>
+      <time className="font-mono italic">2011-2013</time>
+      <div className="text-2xl font-montserrat font-bold my-2 px-3">H.S.C</div>
+      <h1 className="text-md text-[#2a2929] font-medium font-montserrat p-2">Rangpur Govt. College , Rangpur</h1>
     </div>
     <hr />
   </li>

@@ -8,15 +8,14 @@ import SocialLInks from "../../shared/SocialLink";
 import { FaLinkedin } from "react-icons/fa";
 import { motion } from "framer-motion";
 const LeftPart = () => {
-  // const fileId = 'https://drive.google.com/file/d/1c0YFDcXsevIWY8FhylWm2FZYUxpobd3I/view';
-  // const downloadLink = `https://drive.google.com/uc?export=download&id=${fileId}`;
+
   const handleButtonClick = () => {
     // Replace this URL with your Google Drive link
     const driveLink = 'https://drive.google.com/file/d/1c0YFDcXsevIWY8FhylWm2FZYUxpobd3I/view';
     window.open(driveLink, '_blank');
   };
   return (
-    <div className="mt-20 ">
+    <div className="mt-10 lg:mt-20 ">
       <motion.img  animate={{
       scale: [1, 2, 2, 1, 1],
       rotate: [0, 0, 270, 270, 0],
@@ -30,17 +29,17 @@ const LeftPart = () => {
     }}
         src={personalImg}
         alt="personalImg"
-        className="w-64 rounded-full border-[8px] border-[#ffa51f] text-blue-500 font-bold py-2 px-2  animate-borderColorChange"
+        className="w-52 lg:w-64 mx-auto rounded-full border-[8px] border-[#ffa51f] text-blue-500 font-bold py-2 px-2  animate-borderColorChange"
       />
       {/* name title  */}
       <div className="space-y-6">
-        <h1 className="text-5xl text-white font-poppins font-semibold mt-8">
+        <h1 className="text-3xl lg:text-5xl text-white font-poppins font-semibold mt-8">
           Hi, I’m{" "}
           <span className="text-[#ffa51f] font-montserrat">
             Rafiuzzaman Rafi
           </span>
         </h1>
-        <h1 className="text-4xl text-[#ffffff] font-poppins font-bold flex items-end gap-3">
+        <h1 className="text-2xl lg:text-4xl text-[#ffffff] font-poppins font-bold flex items-end gap-3">
          <TypeAnimations/>
           <BiAnalyse className="animate-spin text-[#ffa51f] font-semibold" />{" "}
         </h1>

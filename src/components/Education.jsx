@@ -34,10 +34,11 @@ const Education = () => {
       
       <h1 className="text-md text-[#2a2929] font-medium font-montserrat p-2">East West University, Dhaka</h1>
     </div>
-    <hr />
+    <hr /> 
   </li>
+  
   <li>
-    <hr />
+    <hr /> 
     <div className="timeline-middle">
       <svg
         xmlns="http://www.w3.org/2000/svg"
@@ -78,14 +79,7 @@ const Education = () => {
     </div>
     <hr />
   </li>
-  <li>
-    <hr />
-    
-  
-   
-    
-   
-  </li>
+
 </ul>
     </div>
     

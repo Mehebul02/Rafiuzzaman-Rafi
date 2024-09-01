@@ -80,7 +80,7 @@ const Contact = () => {
             ></textarea>
           </label>
           <div className="mt-6 ">
-            <button className="flex mx-auto justify-center items-center gap-3 text-xl text-white bg-[#ffa41c] hover:bg-gradient-to-r from-red-500 to-neutral-500 shadow-lg   font-montserrat font-bold py-2 px-4 rounded transition duration-300 transform hover:-translate-y-1">
+            <button className="flex mx-auto justify-center items-center gap-3 text-xl text-white bg-[#ffa41c]    shadow-lg   font-montserrat font-bold py-2 px-4 rounded transition duration-300 transform hover:-translate-y-1">
               Send Message
             </button>
           </div>

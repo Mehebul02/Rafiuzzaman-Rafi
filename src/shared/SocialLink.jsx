@@ -13,7 +13,7 @@ const socialAccounts = [
  
   {
     title: "linkedin",
-    link: "https://www.linkedin.com/in/rafiuzzaman/overlay/contact-info/",
+    link: "https://www.linkedin.com/in/rafiuzzaman/",
     icon: <SlSocialLinkedin />,
     delay: 0.9,
   },
@@ -42,7 +42,7 @@ const SocialLInks = ({ className }) => {
           href={item?.link}
           target="blank"
         >
-          <span className="w-10 h-10 text-xl text-white border-[1px] inline-flex items-center justify-center rounded-full border-zinc-500 hover:border-designColor text-lightText hover:text-designColor duration-200 hover:bg-black">
+          <span className="w-10 h-10 text-xl text-white border-[1px] inline-flex items-center  justify-center rounded-full border-zinc-500 hover:border-designColor text-lightText hover:text-designColor duration-200 hover:bg-black">
             {item?.icon}
           </span>
         </motion.a>

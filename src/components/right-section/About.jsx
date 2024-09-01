@@ -8,7 +8,7 @@ const About = () => {
           About me <FcAbout className="animate-pulse" />{" "}
         </h1>
         <div className="divider"></div>
-        <p className="text-xl font-sans ">
+        <p className="text-xl font-sans leading-9">
           I am an experienced Data Analyst with extensive experience in App
           Store Optimization (ASO). Specializing in transforming raw data into
           actionable insights to enhance app visibility and performance.

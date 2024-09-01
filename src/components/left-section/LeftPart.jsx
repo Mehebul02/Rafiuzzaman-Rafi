@@ -33,7 +33,7 @@ const LeftPart = () => {
         className="w-64 rounded-full border-[8px] border-[#ffa51f] text-blue-500 font-bold py-2 px-2  animate-borderColorChange"
       />
       {/* name title  */}
-      <div className="space-y-4">
+      <div className="space-y-6">
         <h1 className="text-5xl text-white font-poppins font-semibold mt-8">
           Hi, I’m{" "}
           <span className="text-[#ffa51f] font-montserrat">
@@ -50,12 +50,12 @@ const LeftPart = () => {
           growth through innovative strategies.
         </p>
         {/* social link  */}
-       <div className="mx-auto">
+       <div className="mx-auto ">
        <SocialLInks/>
        </div>
     
        {/* button  */}
-       <div className="flex flex-col lg:flex-row items-center gap-12">
+       <div className="flex flex-col lg:flex-row items-center gap-12 ">
         <CustomButton  text='Download CV'/>
       
         <button onClick={handleButtonClick}  className="hover:bg-[#ffa51f] px-4 py-3 text-center text-xl font-montserrat font-semibold hover:text-gray-900 rounded-[8px] flex items-center gap-2 bg-orange-600 duration-300 text-white">Thesis Paper  <HiReply   className="text-2xl animate-pulse"></HiReply> </button>

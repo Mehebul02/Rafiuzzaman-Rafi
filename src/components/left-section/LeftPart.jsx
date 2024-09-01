@@ -6,7 +6,7 @@ import { HiReply } from "react-icons/hi";
 import TypeAnimations from "../../shared/TypeAnimation";
 import SocialLInks from "../../shared/SocialLink";
 import { FaLinkedin } from "react-icons/fa";
-
+import { motion } from "framer-motion";
 const LeftPart = () => {
   // const fileId = 'https://drive.google.com/file/d/1c0YFDcXsevIWY8FhylWm2FZYUxpobd3I/view';
   // const downloadLink = `https://drive.google.com/uc?export=download&id=${fileId}`;
@@ -16,8 +16,18 @@ const LeftPart = () => {
     window.open(driveLink, '_blank');
   };
   return (
-    <div className="mt-10 ">
-      <img
+    <div className="mt-20 ">
+      <motion.img  animate={{
+      scale: [1, 2, 2, 1, 1],
+      rotate: [0, 0, 270, 270, 0],
+      borderRadius: ["20%", "20%", "50%", "50%", "20%"],
+    }}transition={{
+      duration: 2,
+      ease: "easeInOut",
+      times: [0, 0.2, 0.5, 0.8, 1],
+     
+      repeatDelay: 2
+    }}
         src={personalImg}
         alt="personalImg"
         className="w-64 rounded-full border-[8px] border-[#ffa51f] text-blue-500 font-bold py-2 px-2  animate-borderColorChange"

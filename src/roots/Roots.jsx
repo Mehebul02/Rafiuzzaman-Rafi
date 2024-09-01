@@ -8,7 +8,7 @@ const Roots = () => {
        <Container>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-10 ">
              {/* Left Part   */}
-           <div>
+           <div className="sticky top-0">
             <LeftPart/>
 
            </div>

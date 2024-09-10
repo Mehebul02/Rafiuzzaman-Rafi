@@ -1,6 +1,25 @@
 import { MdPermDeviceInformation } from "react-icons/md";
-
+import React, { useRef } from 'react';
+import emailjs from '@emailjs/browser';
 const Contact = () => {
+  const form = useRef();
+
+  const sendEmail = (e) => {
+    e.preventDefault();
+
+    emailjs
+      .sendForm('service_4rjt0ps', 'template_6iqh701', form.current, {
+        publicKey: 'sDSJWQUpoQJa2C8QG',
+      })
+      .then(
+        () => {
+          console.log('SUCCESS!');
+        },
+        (error) => {
+          console.log('FAILED...', error.text);
+        },
+      );
+  };
     return (
         // <div>
         //     <h1 className="text-4xl text-white font-poppins my-20">Contact With Me</h1>
@@ -12,7 +31,8 @@ const Contact = () => {
   </h1>
   <div className="divider"></div>
   {/* input type  */}
-  <div className="   rounded-xl  ">
+<form ref={form} onSubmit={sendEmail}>
+<div className="   rounded-xl  ">
           <div className="flex gap-4">
             {/* name  */}
             <label className="form-control w-full ">
@@ -22,7 +42,8 @@ const Contact = () => {
                 </span>
               </div>
               <input
-                type="text"
+                type="name"
+                
                 placeholder="Name"
                 className="input input-bordered w-full "
               />
@@ -75,6 +96,7 @@ const Contact = () => {
               </span>
             </div>
             <textarea
+            type='message'
               className="textarea textarea-bordered h-24"
               placeholder="Message...."
             ></textarea>
@@ -85,6 +107,7 @@ const Contact = () => {
             </button>
           </div>
         </div>
+</form>
 </div>
   </div>
     );
